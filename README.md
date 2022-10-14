@@ -2,7 +2,7 @@
 
 There are a lot of tutorial on how to setup authenticate users with Cognito user pool using AWS ALB, the setup is not strathforward. 
 
-With this terraform codes, you can setup the cognito for the ALB to use directly
+With this terraform codes, you can setup the cognito for the ALB to use directly. It has been adjusted for ALB purpose already.
 
 After that, you can understand how cognito integrates with ALB, and do some adjustments easily.
 
