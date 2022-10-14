@@ -15,6 +15,7 @@ After that, you can understand how cognito integrates with ALB, and do some adju
 # use this command to confirm
 aws s3 ls
 
+# do adjustment for your project in file `staging.tfvars` or create your own
 # dry-run
 terraform init
 terraform plan -var-file=staging.tfvars
