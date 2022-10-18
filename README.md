@@ -1,10 +1,10 @@
-# Authenticate users using an Application Load Balancer with Cognito user pool
+# Secure AWS API Gateway With Cognito User Pool
 
-There are a lot of tutorial on how to setup authenticate users with Cognito user pool using AWS ALB, the setup is not strathforward. 
+There are a lot of tutorial on how to setup authenticate users with Cognito user pool using AWS ALB, the setup is not straightforward. 
 
-With this terraform codes, you can setup a cognito user pool with an app client for ALB. It has been adjusted for ALB purpose already.
+With this terraform codes in this repo, you can setup a cognito user pool with an app client directly. It has been adjusted for ALB (AWS Application Load Balancer).
 
-After that, you can understand how cognito integrates with ALB, and do some adjustments easily.
+After that, you can understand how cognito integrates with ALB, and do some adjustments easily if you want to.
 
 ### Steps
 
